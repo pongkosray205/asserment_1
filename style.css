@@ -1,3 +1,10 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
 body {
 
   font-family: "Inter", sans-serif;
@@ -64,7 +71,7 @@ nav ul li a {
     
 
 .btn:hover {
-    background: #4691657a;
+    background: #57b486;
 }
 .container{
 
@@ -81,12 +88,53 @@ nav ul li a {
 }
 
 
-.hero{
+
+#hero{
     background-image: url(images/hero-bg.png);
 
     background-position: center;
     max-width: 100%;
     height: 674px;
     background-repeat: initial;
-   
+    
 }
+
+.hero{
+  background: linear-gradient(rgba(15,23,42,.7), rgba(53, 55, 59, 0)),
+              url("images/hero-bg.png") center/cover;
+  color: white;
+  text-align: center;
+  padding: 135px 70px;
+  gap: 50px 135px ;
+}
+
+.hero h1 {
+  font-size: 72px;
+
+  margin: 16px 0;
+}
+
+.hero h1 span {
+  color: #30B868;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.badge {
+  background: #FFFFFF;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+ 
+}
+
+.hero-buttons a {
+  margin: 0 10px;
+  background-color: #469165;
+      text-decoration: none;
+  
+}
+
