@@ -174,11 +174,10 @@ font-size: 48px;
 }
 
 .solution {
-    max-width: 1360px;
     display: flex;
     gap: 60px;
     padding-left: 120px;
-    padding-right: 120px;
+    padding-right: 120 px;
     padding: 80px 60px;
     background: #FFFFFF;
     justify-content: center;
