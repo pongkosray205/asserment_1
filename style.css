@@ -77,19 +77,9 @@ nav ul li a {
     background: #57b486;
 }
 .container{
-
     display: flex;
-    align-items: center;
-    justify-content: space-between;}
-
-    .backgroundimg{
-
-    width: 90%;
-    max-width: 1200px;
-    text-align: center;
-    color: white;
+    justify-content: space-between;
 }
-
 
 
 #hero{
@@ -109,6 +99,7 @@ nav ul li a {
   text-align: center;
   padding: 135px 70px;
   gap: 50px 135px ;
+
 }
 
 .hero h1 {
@@ -143,12 +134,79 @@ nav ul li a {
 
 .problems{
 padding: 80px 60px;
-  text-align: center;
+text-align: center;
 
 }
 .problem-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-  gap: 24px;
-  margin-top: 44px;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  align-items: center;
+    
+
+  
 }
+.card {
+  padding: 25px;
+  width: 322px;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 60px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.problems h2{
+padding-bottom: 16px;
+font-size: 48px;
+}
+
+.solution ul {
+  margin-top: 20px;
+}
+
+.solution {
+
+    display: flex;
+    gap: 60px;
+    padding: 120px 120px ;
+    padding: 80px 60px;
+    background: #FFFFFF;
+    justify-content: center;
+
+}
+.solution li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+    .solution h2 {
+        font-size: larger;
+
+    }
+    .label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #469165;
+    padding: 16px;
+        
+    }
+
+    .solution-text, .heading_tag {
+    font-size: 48px;
+
+    }
+    .heading_tag{
+        color: #001931
+    }
+    .pragrap_2 {
+        font-size: 16px;
+        font: weight 400px;
+        
+    }
